@@ -1,85 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-19T23:33:44 BST" name="Suite" finished-at="2026-04-19T23:34:34 BST" duration-ms="50260">
+  <suite started-at="2026-05-28T19:20:17 BST" name="Default suite" finished-at="2026-05-28T19:20:18 BST" duration-ms="493">
     <groups>
     </groups>
-    <test started-at="2026-04-19T23:33:44 BST" name="HousingTestAssignment" finished-at="2026-04-19T23:34:34 BST" duration-ms="50260">
-      <class name="tests.HousingTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:33:44 BST" name="setup" finished-at="2026-04-19T23:33:48 BST" duration-ms="4328" status="PASS">
+    <test started-at="2026-05-28T19:20:17 BST" name="Default test" finished-at="2026-05-28T19:20:18 BST" duration-ms="493">
+      <class name="Rebalance.RebalancerTest">
+        <test-method signature="testIBMBuy()[pri:0, instance:Rebalance.RebalancerTest@700fb871]" started-at="2026-05-28T19:20:17 BST" name="testIBMBuy" finished-at="2026-05-28T19:20:18 BST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:33:48 BST" name="createPage" finished-at="2026-04-19T23:33:49 BST" duration-ms="231" status="PASS">
+        </test-method> <!-- testIBMBuy -->
+        <test-method signature="testInvalidAsset()[pri:0, instance:Rebalance.RebalancerTest@700fb871]" started-at="2026-05-28T19:20:18 BST" name="testInvalidAsset" finished-at="2026-05-28T19:20:18 BST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="AfterUsingSearchSortingPossibilities()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:33:49 BST" name="AfterUsingSearchSortingPossibilities" finished-at="2026-04-19T23:33:56 BST" duration-ms="7135" status="PASS">
+        </test-method> <!-- testInvalidAsset -->
+        <test-method signature="testInvalidPrice()[pri:0, instance:Rebalance.RebalancerTest@700fb871]" started-at="2026-05-28T19:20:18 BST" name="testInvalidPrice" finished-at="2026-05-28T19:20:18 BST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterUsingSearchSortingPossibilities -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:33:56 BST" name="createPage" finished-at="2026-04-19T23:33:56 BST" duration-ms="110" status="PASS">
+        </test-method> <!-- testInvalidPrice -->
+        <test-method signature="testMSFTHold()[pri:0, instance:Rebalance.RebalancerTest@700fb871]" started-at="2026-05-28T19:20:18 BST" name="testMSFTHold" finished-at="2026-05-28T19:20:18 BST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="ByDefaultSortingPossibilities()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:33:56 BST" name="ByDefaultSortingPossibilities" finished-at="2026-04-19T23:34:01 BST" duration-ms="5317" status="PASS">
+        </test-method> <!-- testMSFTHold -->
+        <test-method signature="testORCLSell()[pri:0, instance:Rebalance.RebalancerTest@700fb871]" started-at="2026-05-28T19:20:18 BST" name="testORCLSell" finished-at="2026-05-28T19:20:18 BST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ByDefaultSortingPossibilities -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:01 BST" name="createPage" finished-at="2026-04-19T23:34:01 BST" duration-ms="117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="SortingPrice()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:01 BST" name="SortingPrice" finished-at="2026-04-19T23:34:07 BST" duration-ms="5287" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SortingPrice -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:07 BST" name="createPage" finished-at="2026-04-19T23:34:07 BST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="selectNewestTest()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:07 BST" name="selectNewestTest" finished-at="2026-04-19T23:34:12 BST" duration-ms="5057" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectNewestTest -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:12 BST" name="createPage" finished-at="2026-04-19T23:34:12 BST" duration-ms="113" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="selectPriceHighToLowTest()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:12 BST" name="selectPriceHighToLowTest" finished-at="2026-04-19T23:34:17 BST" duration-ms="4738" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectPriceHighToLowTest -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:17 BST" name="createPage" finished-at="2026-04-19T23:34:17 BST" duration-ms="121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="selectPriceLowToHighTest()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:17 BST" name="selectPriceLowToHighTest" finished-at="2026-04-19T23:34:22 BST" duration-ms="5289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectPriceLowToHighTest -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:22 BST" name="createPage" finished-at="2026-04-19T23:34:22 BST" duration-ms="107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="selectRelevancetTest()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:22 BST" name="selectRelevancetTest" finished-at="2026-04-19T23:34:28 BST" duration-ms="6208" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectRelevancetTest -->
-        <test-method is-config="true" signature="createPage()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:28 BST" name="createPage" finished-at="2026-04-19T23:34:29 BST" duration-ms="118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPage -->
-        <test-method signature="selectUpcomingtTest()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:29 BST" name="selectUpcomingtTest" finished-at="2026-04-19T23:34:34 BST" duration-ms="5240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectUpcomingtTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HousingTests@3e78b6a5]" started-at="2026-04-19T23:34:34 BST" name="tearDown" finished-at="2026-04-19T23:34:34 BST" duration-ms="459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.HousingTests -->
-    </test> <!-- HousingTestAssignment -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testORCLSell -->
+      </class> <!-- Rebalance.RebalancerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.HousingTests">
+      <class name="Rebalance.RebalanceUITest">
         <methods>
-          <include name="setup"/>
+          <include name="testRebalanceCalculation"/>
           <include name="tearDown"/>
-          <include name="ByDefaultSortingPossibilities"/>
-          <include name="createPage"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- tests.HousingTests -->
+      </class> <!-- Rebalance.RebalanceUITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
