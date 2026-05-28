@@ -78,7 +78,7 @@ public class Rebalancer {
     }
 
     /*
-     * Main method for quick testing
+     * Main method to Test If Code working
      */
     public static void main(String[] args) {
 
