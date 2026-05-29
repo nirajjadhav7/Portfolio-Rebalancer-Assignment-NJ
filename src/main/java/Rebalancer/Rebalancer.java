@@ -3,9 +3,7 @@ package Rebalancer;
 /*
  * 
  *
- * This class calculates how many shares
- * need to be bought or sold to match
- * the target allocation.
+ * This class calculates how many shares need to be bought or sold to match the target allocation.
  */
 
 public class Rebalancer {
